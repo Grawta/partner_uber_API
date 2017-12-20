@@ -1,0 +1,2 @@
+class UberPickup < ApplicationRecord
+end
