@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+records = JSON.parse(File.read('./data.json'))
+records.each do |record|
+	UberPickup.create(record)
+end
