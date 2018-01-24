@@ -47,7 +47,7 @@ This project is an API to access information from a uber_pickups dataset. I foun
     source ~/.bashrc
 
 
-##Project setup
+## Project setup
 
 #### Go to the project directory
 
@@ -79,14 +79,14 @@ This project is an API to access information from a uber_pickups dataset. I foun
 ## Deployment instructions
 For this part I decide to host my API on heroku. The deployment instruction are :
 
-####Create an app on heroku :
+#### Create an app on heroku :
 	heroku create
 
-####Deploy your code :
+#### Deploy your code :
 	git push heroku master
 
-####Launch your app then visit the URL generated to visit your app :
+#### Launch your app then visit the URL generated to visit your app :
 	heroku open
 
-####Populate PostGreSQL database with db/data.json :
+#### Populate PostGreSQL database with db/data.json :
 	heroku run rake db:seed
