@@ -3,7 +3,7 @@
 ## Description
 This project is an API to access information from a uber_pickups dataset. I found this open-source dataset on :
 
- <https://www.kaggle.com/>
+ <https://www.kaggle.com/fivethirtyeight/uber-pickups-in-new-york-city>
 ## Developer Setup
 
 ### macOS requirements
