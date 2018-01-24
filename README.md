@@ -1,7 +1,9 @@
 # README
 
 ## Description
-	This project is an API to access information from a uber_pickups dataset. I found this open-source dataset on : <https://www.kaggle.com/>
+This project is an API to access information from a uber_pickups dataset. I found this open-source dataset on :
+
+ <https://www.kaggle.com/>
 ## Developer Setup
 
 ### macOS requirements
@@ -46,10 +48,13 @@
 
 
 ## Deployment instructions
-	For this part I decide to host my API on heroku. The deployment instruction are :
-	Create an app on heroku :
+For this part I decide to host my API on heroku. The deployment instruction are :
+
+Create an app on heroku :
 	heroku create
-	Deploy your code :
+
+Deploy your code :
 	git push heroku master
-	Launch your app then visit the URL generated to visit your app :
+
+Launch your app then visit the URL generated to visit your app :
 	heroku open
